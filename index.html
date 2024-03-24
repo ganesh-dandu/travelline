@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travellian - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Hero Section Starts Here -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <section class="navbar">
+                <div class="brand">
+                    <img src="/img/Logo.svg" alt="">
+                </div>
+                <div class="menu-links">
+                    <a href="#">Home</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Travel</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <div class="hamburger">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <div class="button-wrapper">
+                    <a href="#">Login</a>
+                    <a href="#" class="primary-button">Sign up</a>
+                </div>
+            </section>
+            <div class="hero-wrapper">
+                <div class="text-wrapper">
+                    <h1>Start Your Unforgettable Journey With Us</h1>
+                    <p>The best travel for your jouney begins now</p>
+                </div>
+                <div class="form-wrapper">
+                    <form action="" class="booking-form">
+                        <div class="form-input-left">
+                            <div class="form-input-wrapper">
+                                <label for="destination">DESTINATION</label>
+                                <input type="text" name="destination" id="destination">
+                            </div>
+    
+                            <div class="form-input-wrapper">
+                                <label for="travelers">Person</label>
+                                <select name="travelers" id="travelers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-input-right">
+                            <div class="form-input-wrapper">
+                                <label for="check-in">Check In</label>
+                                <input type="date" name="check-in-date" id="check-in">
+                            </div>
+    
+                            <div class="form-input-wrapper">
+                                <label for="check-out">Check Out</label>
+                                <input type="date" name="check-out-date" id="check-out">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-cta-wrapper">
+                        <a href="#">Book Now</a>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section Ends Here -->
+
+    <!-- Destionation Section Starts Here -->
+    <section class="destination">
+        <div class="container">
+          <div class="partone">
+            <div class="heading-wrapper">
+                <h3>Popular Destinations</h3>
+                <p>Most popular destinations around the world, from historical places to natural wonders.</p>
+            </div>
+            <div class="nav-button-wrapper">
+                <div class="prev-element"><i class="ri-arrow-left-s-line"></i></div>
+                <div class="next-element"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+          </div>
+
+         <div class="parttwo">
+            <div class="swiper destination-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper destination-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide" >
+                    <h4>Monument Of Berlin</h4>
+                    <div class="loc-wrapper">
+                        <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                        <p>Berlin, England</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" >
+                    <h4>Millenium Bridge</h4>
+                    <div class="loc-wrapper">
+                        <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                        <p>London, United Kingdom</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" >
+                    <h4>Rialto Bridge</h4>
+                    <div class="loc-wrapper">
+                        <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                        <p>Venice, Italy</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" >
+                    <h4>Taj Mahal</h4>
+                    <div class="loc-wrapper">
+                        <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                        <p>Agra, India</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" >
+                    <h4>ISRO</h4>
+                    <div class="loc-wrapper">
+                        <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                        <p>Srihari Kota, India</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide" >
+                    <h4>Kedharnath</h4>
+                    <div class="loc-wrapper">
+                        <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                        <p>Uttar Pradesh, India</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="nav-button-wrapper2">
+            <div class="prev-element2 prev-element"><i class="ri-arrow-left-s-line"></i></div>
+            <div class="next-element2 next-element"><i class="ri-arrow-right-s-line"></i></div>
+        </div>
+    </section>
+    <!-- Destination Section Ends Here -->
+
+    <!-- Special Offer Section Starts Here -->
+    <section class="special-offer">
+        <div class="container">
+            <div class="partone">
+                <div class="special-heading-wrapper">
+                    <div class="nav-button-wrapper">
+                        <div class="special-prev-element"><i class="ri-arrow-left-s-line"></i></div>
+                        <div class="special-next-element"><i class="ri-arrow-right-s-line"></i></div>
+                    </div>
+                    <div class="special-text-wrapper">
+                        <h4>Special Offers</h4>
+                        <p>Check out our special offer and discounts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="parttwo">
+                <div class="special-swiper swiper">
+                    <div class="swiper-wrapper special-wrapper">
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/lisbon.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Lisbon, Portugal</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                        <h3>₹500</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/romeitaly.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Rome, Italy</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                            <h3>₹900</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/athebs.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Athens, Greece</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                            <h3>₹800</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/tajmahal.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Taj Mahal</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                            <h3>₹500</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/kerala.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Kerala, India</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                            <h3>₹2500</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/kashmir.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Kashmir, India</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                            <h3>₹500</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="special-slide-content-wrapper">
+                                <div class="image-wrapper">
+                                    <img src="/img/rishikesh.jpg" alt="">
+                                </div>
+                                <div class="text-wrapper">
+                                    <h4>Rishikesh, Uttarakhand</h4>
+                                    <div class="rating-wrapper">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p>5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                                    <div class="price-wrapper">
+                                            <h3>₹5200</h3>
+                                        <a href="#" class="price-cta">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="special-nav-wrapper">
+            <div class="special-prev-element"><i class="ri-arrow-left-s-line"></i></div>
+            <div class="special-next-element"><i class="ri-arrow-right-s-line"></i></div>
+        </div>
+    </section>
+    <!-- Special Offer Section Ends Here -->
+
+    <!-- Our Blog Section Starts Here -->
+    <section class="our-blog">
+        <div class="container">
+            <div class="blog-heading">
+                <h3>Our Blog</h3>
+                <p>An insight the incredible experience in the world</p>
+            </div>
+            <div class="blog-content">
+                <div class="blog-content-image">
+                    <img src="/img/ourblog.jpg" alt="">
+                </div>
+                <div class="blog-content-text">
+                    <h4>Beautiful Italy Let’s travel</h4>
+                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is there anyone who loves or pursues.</p>
+                    <div class="cta-wrapper">  
+                        <a href="">Read More</a>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Blog Section Ends Here -->
+
+    <!-- Trip Planner Section Starts Here -->
+    <section class="trip-planner">
+        <div class="container">
+            <div class="trip-planner-text">
+                <h4>Trip Planners</h4>
+                <p>20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</p>
+                <a href="#">View All Trip Plans</a>
+            </div>
+            <div class="swiper trip-planner-swiper">
+                <div class="swiper-wrapper trip-planner-swiper-wrapper">
+                    <div class="swiper-slide trip-planner-swiper-slide">
+                        <div class="price-wrapper">
+                            <h5>GUIDED TOUR</h5>
+                            <p>$95/Day</p>
+                        </div>
+                        <div class="title-wrapper">
+                            <h4>Taj Mahal Tour Guide</h4>
+                        </div>
+                        <div class="trip-rating-wrapper">
+                            <div class="trip-ratings">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>12 Days Tour</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide trip-planner-swiper-slide">
+                        <div class="price-wrapper">
+                            <h5>GUIDED TOUR</h5>
+                            <p>$195/Day</p>
+                        </div>
+                        <div class="title-wrapper">
+                            <h4>Paris Tour Guide</h4>
+                        </div>
+                        <div class="trip-rating-wrapper">
+                            <div class="trip-ratings">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>7 Days Tour</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide trip-planner-swiper-slide">
+                        <div class="price-wrapper">
+                            <h5>GUIDED TOUR</h5>
+                            <p>$125/Day</p>
+                        </div>
+                        <div class="title-wrapper">
+                            <h4>Kerala Tour Guide</h4>
+                        </div>
+                        <div class="trip-rating-wrapper">
+                            <div class="trip-ratings">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>8 Days Tour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trip Planner Section Ends Here -->
+
+    <!-- Gallery Section Starts Here -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-heading-wrapper">
+                <div class="title-wrapper">
+                    <h3>Destination Gallery</h3>
+                    <p>Our photo gallery on trip</p>
+                </div>
+                <div class="gallery-nav-wrapper">
+                    <div class="gallery-prev"><i class="ri-arrow-left-s-line"></i></div>
+                    <div class="gallery-next"><i class="ri-arrow-right-s-line"></i></div>
+                </div>
+            </div>
+            <div class="gallery-swiper swiper">
+                <div class="gallery-swiper-wrapper swiper-wrapper">
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                    <div class="gallery-swiper-slide swiper-slide"></div>
+                </div>
+            </div>
+            <div class="gallery-nav-wrapper2">
+                <div class="gallery-prev"><i class="ri-arrow-left-s-line"></i></div>
+                <div class="gallery-next"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Ends Here -->
+
+    <!-- Testiomonials Section Starts Here -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonial-heading-wrapper">
+                <h3>Travellers Experience's</h3>
+                <p>Here some awesome feedback from our travelers</p>
+            </div>
+
+            <div class="testimonial-swiper swiper">
+                <div class="testimonial-swiper-wrapper swiper-wrapper">
+                    <div class="testimonial-swiper-slide swiper-slide">
+                        <div class="testimonial-container">
+                            <div class="image-wrapper">
+                                <img src="/img/PPP.jpg" alt="">
+                            </div>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
+                            <div class="rating-wrapper">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>Ganesh Dandu</h4>
+                            <h5>Developer</h5>
+                        </div>
+                        <div class="testimonial-swiper-slide swiper-slide">
+                            <div class="image-wrapper"></div>
+                            <p></p>
+                            <div class="rating-wrapper"></div>
+                            <h4></h4>
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-swiper-slide swiper-slide">
+                        <div class="testimonial-container">
+                            <div class="image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvcnRyYWl0fGVufDB8fDB8fHww" alt="">
+                            </div>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
+                            <div class="rating-wrapper">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>Bhanu Shankar</h4>
+                            <h5>Vlogger</h5>
+                        </div>
+                        <div class="testimonial-swiper-slide swiper-slide">
+                            <div class="image-wrapper"></div>
+                            <p></p>
+                            <div class="rating-wrapper"></div>
+                            <h4></h4>
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-swiper-slide swiper-slide">
+                        <div class="testimonial-container">
+                            <div class="image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRyYWl0fGVufDB8fDB8fHww" alt="">
+                            </div>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
+                            <div class="rating-wrapper">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>Vishnu Vardhan</h4>
+                            <h5>Founder</h5>
+                        </div>
+                        <div class="testimonial-swiper-slide swiper-slide">
+                            <div class="image-wrapper"></div>
+                            <p></p>
+                            <div class="rating-wrapper"></div>
+                            <h4></h4>
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-swiper-slide swiper-slide">
+                        <div class="testimonial-container">
+                            <div class="image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRyYWl0fGVufDB8fDB8fHww" alt="">
+                            </div>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
+                            <div class="rating-wrapper">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>Suneel Kumar</h4>
+                            <h5>CTO</h5>
+                        </div>
+                        <div class="testimonial-swiper-slide swiper-slide">
+                            <div class="image-wrapper"></div>
+                            <p></p>
+                            <div class="rating-wrapper"></div>
+                            <h4></h4>
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-swiper-slide swiper-slide">
+                        <div class="testimonial-container">
+                            <div class="image-wrapper">
+                                <img src="https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBvcnRyYWl0fGVufDB8fDB8fHww" alt="">
+                            </div>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.</p>
+                            <div class="rating-wrapper">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>Rajendra S</h4>
+                            <h5>EP</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav-wrapper">
+                <div class="test-prev"><i class="ri-arrow-left-s-line"></i></div>
+                <div class="test-next"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section Ends Here -->
+
+    <!-- Newsletter Section Starts Here -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-container">
+                <h2>Our Newsletter</h2>
+                <form action="" class="cta">
+                    <div class="email-wrapper">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <a href="#">Subscribe</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section Ends Here -->
+
+    <!-- Footer Section Starts Here -->
+    <section class="footer">
+        <div class="container">
+            <div class="part1">
+                <div class="logo-wrapper">
+                    <img src="/img/Union.svg" alt="Travelline">
+                </div>
+                    
+                <p>Copyright &copy; Travellian 2020 All rights reserved</p>
+            </div>
+            <div class="footer-links">
+                <h3>Menu</h3>
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Travel</a>
+                <a href="#">Blog</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="footer-links">
+                <h3>Destinations</h3>
+                <a href="#">Support</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="footer-links">
+                <h3>Contact Info</h3>
+                <a href="#">+91 23456 78900</a>
+                <a href="mailto:info@travellian.com">info@travellian.com</a>
+                <a href="#">Kavali, Nellore, IN</a>
+            </div>
+            <div class="part5">
+                <h3>Follow Us on</h3>
+                <div class="logo-wrapper">
+                    <i class="ri-facebook-circle-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-twitter-x-fill"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section Ends Here -->
+
+    <div class="footer-secondary">
+        <div class="container">
+            <p>Handcoded By  <a href="https://www.instagram.com/ganeshxdev.co" target="_blank">Ganesh D<i class="ri-arrow-right-up-line"></i></a></p>
+        </div>
+    </div>
+
+    <!-- Swiper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
